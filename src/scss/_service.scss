@@ -1,0 +1,54 @@
+.service{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .service-header{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 6rem;
+
+        h2{
+            font-size: 3.5rem;
+            color:#212529;
+            padding-bottom: 3rem;
+            font-weight: 300;
+        }
+        h2::after{
+            content: '';
+            display: block;
+            width: 45px;
+            background-color: #f4623a;
+            left:49%;
+            margin-top: 3rem;
+            position: absolute;
+            height: 4px;
+    }
+    }
+    .service-items{
+        display: flex;
+        justify-content: space-between;
+        .service-item{
+            width: 23%;
+            text-align: center;
+            .service-caption{
+                padding-top: 2rem;
+
+
+                h3{
+                    font-size: 2.5rem;
+                    color: #212529;
+                    font-weight: 100;
+                }
+                p{
+             font-size: 1.8rem;
+            color: #6c757d;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
+    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.download{
+    background-color: #343a40;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .download-header{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        h2{
+            font-size: 3.5rem;
+            color: white;
+            padding-bottom: 3rem;
+            font-weight: 100;
+        }
+
+    }
+}

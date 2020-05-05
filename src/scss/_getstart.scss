@@ -1,0 +1,35 @@
+.star-cover{
+     background-color: #f4623a;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .get-started_content{
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        h2{
+            font-size: 3.5rem;
+            color: white;
+            padding-bottom: 3rem;
+        }
+        h2::after{
+            content: '';
+            display: block;
+            width: 45px;
+            background-color: white;
+            left:49%;
+            margin-top: 3rem;
+            position: absolute;
+            height: 4px;
+    }
+    p{
+        font-size: 1.8rem;
+        color: rgba(255,255,255,.75);
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+
+    }
+}
+}

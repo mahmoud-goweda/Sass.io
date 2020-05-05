@@ -1,0 +1,42 @@
+.header{
+    background-image: url('../../imgs/header.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+
+    .header-head{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+
+        h1{
+            font-size: 5.5rem;
+            color: white;
+            text-transform: uppercase;
+            padding-bottom: 3rem;
+        }
+        h1::after{
+            content: '';
+            display: block;
+            width: 45px;
+            background-color: red;
+            left:49%;
+            margin-top: 3rem;
+            position: absolute;
+            height: 4px;
+
+        }
+        p{
+            font-size: 1.8rem;
+            color: rgba(255,255,255,.75);
+            padding-top: 3rem;
+            padding-bottom: 5rem;
+
+        }
+       
+    }
+}
